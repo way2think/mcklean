@@ -10434,6 +10434,34 @@ h1 {
   display: none;
 }
 
+.interior {
+  width: 130px;
+  height: 100%;
+}
 
+.interior-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
 
+.interior-1 {
+  display: grid;
+  gap: 20px;
+  padding: 20px;
+  border-radius: 10px;
+}
 
+.interior-1:hover {
+  border: 1px solid #dfb163;
+
+  text-decoration: none;
+}
+.w-100{
+  border-radius: 10px;
+}
+
+.service-name {
+  margin: 10px 10px;
+}
