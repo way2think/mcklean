@@ -10462,6 +10462,10 @@ h1 {
   border-radius: 10px;
 }
 
+.p-3{
+  text-align: justify;
+}
+
 .service-name {
   margin: 10px 10px;
 }
