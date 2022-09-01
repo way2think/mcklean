@@ -10435,8 +10435,11 @@ h1 {
 }
 
 .interior {
-  width: 130px;
   height: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
 }
 
 .interior-page {
@@ -10446,15 +10449,20 @@ h1 {
   padding: 20px;
 }
 
+.interior-page:hover{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 5px;
+}
+
 .interior-1 {
   display: grid;
   gap: 20px;
-  padding: 20px;
+  /* padding: 20px; */
   border-radius: 10px;
 }
 
 .interior-1:hover {
-  border: 1px solid #dfb163;
+  
 
   text-decoration: none;
 }
@@ -10478,3 +10486,19 @@ border-radius: 10px;
 .service-name {
   margin: 10px 10px;
 }
+
+.in{
+  background: var(--primary);
+  font-family: "Oswald", sans-serif;
+  color: #000;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 13px;
+}
+
+.caro{
+  display: flex;
+  align-items: center;
+}
+
+
