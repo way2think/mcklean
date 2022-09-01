@@ -10502,3 +10502,14 @@ border-radius: 10px;
 }
 
 
+.navbar-brd2{
+  position: relative;
+  width: 300px;
+  height: 120px;
+  left: 15px;
+  background-size: contain;
+  padding: 10px;
+}
+
+
+
